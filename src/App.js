@@ -1,25 +1,49 @@
-import logo from './logo.svg';
-import './App.css';
+import MoviesTable from './components/MoviesTable'
+import Title from './components/Title'
+import { useEffect, useState } from 'react'
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const [error, setError] = useState(null);
+    const [movies, setMovies] = useState([]);
+
+    const title = "Marvel Cinematic Universe in Chronological Order";
+
+    useEffect(() => {
+        fetch("data/marvelMovies.json", {
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            }
+        })
+            .then(res => res.json())
+            .then(
+                (result) => {
+                    setMovies(result.marvelMovies);
+                },
+                (error) => {
+                    setError(error);
+                }
+            )
+    }, []);
+
+    if (error) {
+        return (
+            <div className="container">
+                <Title text={title} />
+                <div>Error loading: {error.message}</div>
+            </div>
+        );
+    } else {
+        return (
+            <div className="container">
+                <Title text={title} />
+                <br></br>
+                <MoviesTable movies={movies} />
+                <br></br>
+            </div>
+        );
+    }
 }
 
 export default App;
