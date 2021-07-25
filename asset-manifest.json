@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/marvel/static/css/main.85c4d3fd.chunk.css",
-    "main.js": "/marvel/static/js/main.da05b1b6.chunk.js",
-    "main.js.map": "/marvel/static/js/main.da05b1b6.chunk.js.map",
-    "runtime-main.js": "/marvel/static/js/runtime-main.3ce78df2.js",
-    "runtime-main.js.map": "/marvel/static/js/runtime-main.3ce78df2.js.map",
+    "main.css": "/marvel/static/css/main.0456451f.chunk.css",
+    "main.js": "/marvel/static/js/main.cea82557.chunk.js",
+    "main.js.map": "/marvel/static/js/main.cea82557.chunk.js.map",
+    "runtime-main.js": "/marvel/static/js/runtime-main.aa56a2a5.js",
+    "runtime-main.js.map": "/marvel/static/js/runtime-main.aa56a2a5.js.map",
     "static/js/2.22d443a9.chunk.js": "/marvel/static/js/2.22d443a9.chunk.js",
     "static/js/2.22d443a9.chunk.js.map": "/marvel/static/js/2.22d443a9.chunk.js.map",
-    "static/js/3.60e4ee80.chunk.js": "/marvel/static/js/3.60e4ee80.chunk.js",
-    "static/js/3.60e4ee80.chunk.js.map": "/marvel/static/js/3.60e4ee80.chunk.js.map",
+    "static/js/3.721f8dc3.chunk.js": "/marvel/static/js/3.721f8dc3.chunk.js",
+    "static/js/3.721f8dc3.chunk.js.map": "/marvel/static/js/3.721f8dc3.chunk.js.map",
     "index.html": "/marvel/index.html",
-    "static/css/main.85c4d3fd.chunk.css.map": "/marvel/static/css/main.85c4d3fd.chunk.css.map",
+    "static/css/main.0456451f.chunk.css.map": "/marvel/static/css/main.0456451f.chunk.css.map",
     "static/js/2.22d443a9.chunk.js.LICENSE.txt": "/marvel/static/js/2.22d443a9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.3ce78df2.js",
+    "static/js/runtime-main.aa56a2a5.js",
     "static/js/2.22d443a9.chunk.js",
-    "static/css/main.85c4d3fd.chunk.css",
-    "static/js/main.da05b1b6.chunk.js"
+    "static/css/main.0456451f.chunk.css",
+    "static/js/main.cea82557.chunk.js"
   ]
 }
