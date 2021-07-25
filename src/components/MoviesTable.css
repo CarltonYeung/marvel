@@ -11,10 +11,15 @@ th {
 
 th, td {
     border: 1px solid black;
-    padding: 5px;
+    padding: 10px;
+    white-space: nowrap;  /* Adjust column width to fit cell contents on one line */
 }
 
 td {
     background-color: #162CA2;
     color: white;
+}
+
+td.symbol {
+    text-align: center;
 }

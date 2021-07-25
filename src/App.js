@@ -1,6 +1,7 @@
 import MoviesTable from './components/MoviesTable'
 import Title from './components/Title'
 import { useEffect, useState } from 'react'
+import './App.css'
 
 
 function App() {
@@ -30,17 +31,33 @@ function App() {
     if (error) {
         return (
             <div className="container">
-                <Title text={title} />
-                <div>Error loading: {error.message}</div>
+                <div className="left"></div>
+                <div className="center">
+                    <div className="header">
+                        <Title text={title} />
+                    </div>
+                    <div className="body">
+                        <div>Error loading: {error.message}</div>
+                    </div>
+                    <div className="footer"></div>
+                </div>
+                <div className="right"></div>
             </div>
         );
     } else {
         return (
             <div className="container">
-                <Title text={title} />
-                <br></br>
-                <MoviesTable movies={movies} />
-                <br></br>
+                <div className="left"></div>
+                <div className="center">
+                    <div className="header">
+                        <Title text={title} />
+                    </div>
+                    <div className="body">
+                        <MoviesTable movies={movies} />
+                    </div>
+                    <div className="footer"></div>
+                </div>
+                <div className="right"></div>
             </div>
         );
     }
