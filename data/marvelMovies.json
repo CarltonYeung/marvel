@@ -226,7 +226,7 @@
         },
         {
             "name": "Cloak & Dagger (season 1)",
-            "seen": false
+            "seen": true
         },
         {
             "name": "Cloak & Dagger (season 2)",
@@ -289,6 +289,10 @@
             "seen": false
         },
         {
+            "name": "What If...?",
+            "seen": false
+        },
+        {
             "name": "WandaVision",
             "seen": false
         },
@@ -297,8 +301,25 @@
             "seen": false
         },
         {
+            "name": "Shang-Chi and the Legend of the Ten Rings",
+            "seen": false
+        },
+        {
+            "name": "Eternals",
+            "seen": false
+        },
+        {
             "name": "Spider-Man: Far From Home",
+            "seen": false
+        },
+        {
+            "name": "Spider-Man: No Way Home",
+            "seen": false
+        },
+        {
+            "name": "Hawkeye",
             "seen": false
         }
     ]
 }
+
