@@ -322,7 +322,7 @@
         },
         {
             "name": "Hawkeye",
-            "seen": false
+            "seen": true
         }
     ]
 }
